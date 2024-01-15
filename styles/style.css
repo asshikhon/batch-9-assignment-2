@@ -1,4 +1,97 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+/* shared class styles */
+.primary-description{
+    /* width: 676px; */
+
+}
+.primary-btn{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+display: flex;
+padding: 16px 35px;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+border: 0;
+}
+/* header section styles */
+.explore-section{
+    width: 81%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group-13-\(1\)-\(1\).png);
+    width: 1170px;
+height: 500px;
+border-radius: 16px;
+background-repeat: no-repeat;
+margin: 60px auto 100px auto;
+text-align: center;
+object-fit: cover;
+}
+.explore-section .explore{
+/* width: 81%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group-13-\(1\)-\(1\).png);
+    width: 1170px;
+height: 500px;
+border-radius: 16px;
+background-repeat: no-repeat;
+margin: 60px auto 100px auto;
+text-align: center;
+object-fit: cover; */
+padding-top: 106px;
+}
+
+.explore-section .explore .explore-title{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+text-align: center;
+margin-bottom: 24px;
+}
+.explore-section .explore .explore-description{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.explore-section .explore .find-box{
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+position: relative;
+margin-top: 48px;
+}
+.explore-section .explore .find-box .filter{
+    border-radius: 8px;
+background: #FFF;
+width: 174px;
+height: 52px;
+padding-left: 16px;
+border: 0;
+}
+.explore-section .explore .find-box .icon1{
+    position: absolute;
+left: 548px;
+top: 31px;
+}
+.explore-section .explore .find-box .icon2{
+    position: absolute;
+    left: 350px;
+    top: 31px;
 }
