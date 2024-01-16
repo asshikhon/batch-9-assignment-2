@@ -273,6 +273,96 @@ padding-top: 32px;
 margin: 24px auto 0 auto;
 }
 
+
+
+/* Newsletter section styles */
+
+.newsletter-section{
+  width: 81%;
+  max-width: 1170px;
+  height: 422px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  gap: 24px;
+}
+.newsletter-section .subscribe-container{
+/* margin: 40px; */
+border-radius: 16px;
+/* border: 1px solid #FF5400; */
+padding: 40px;
+border: 1px solid #FF5400;
+}
+.newsletter-section .subscribe-container .subscribe-h3{
+  color: #131318;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.newsletter-section .subscribe-container p{
+margin-bottom: 24px;
+}
+.newsletter-section .subscribe-container .name-input{
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-bottom: 16px;
+  margin-top: 24px;
+  border: 0;
+  padding-left: 20px;
+}
+.newsletter-section .subscribe-container .email-input{
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: 0;
+  padding-left: 20px;
+}
+.newsletter-section .subscribe-container .subscribe-btn{
+  color: #FFF;
+  font-weight: 800;
+  font-size: 20px;
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  margin-top: 24px;
+  border: 0;
+}
+.newsletter-section .subscribe-container hr{
+  width: 393px;
+height: 1px;
+}
+.newsletter-section .newsletter-img{
+
+}
+.newsletter-section .newsletter-img .newsletter-offer{
+  width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+padding-top: 25px;
+position: relative;
+bottom: 175px;
+right: -338px;
+}
+.newsletter-section .newsletter-img .offer-h3{
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF;
+}
+
+.newsletter-section .newsletter-img .offer-h2{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+
+
 /* footer section styles */
 
 .footer-section{
@@ -287,7 +377,7 @@ margin-right: auto;
     width: 60%;
     height: auto;
     margin: 110px auto;
-    /* margin-top: 110px; */
+    
 }
 .footer-section .footer-container .footer-content{
     padding-top: 110px;
@@ -306,6 +396,7 @@ margin-right: auto;
 .footer-section .footer-container .footer-content img{
     position: relative;
     top: 12px;
+    right: 16px;
    
    }
 .footer-section .footer-container .footer-content p{
