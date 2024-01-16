@@ -115,7 +115,7 @@
   color: #131318;
   font-size: 40px;
   font-weight: 800;
-  margin-bottom: 22px;
+  margin-bottom: 32px;
 }
 .popular-section .popular-content .popular-ul {
   margin-bottom: 28px;
@@ -221,6 +221,52 @@
   top: 45%;
 }
 
+/* Why Choose Us section styles */
+
+.choose-section{
+width: 81%;
+max-width: 1170px;
+height: auto;
+margin: 0 auto;
+}
+.choose-section .choose-content{
+text-align: center;
+align-items: center;
+}
+.choose-section .choose-box{
+display: flex;
+gap: 24px;
+margin-top: 48px;
+}
+.choose-section .choose-box .box1{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding-left: 32px;
+padding-top: 32px;
+}
+.choose-section .choose-box .box2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 32px;
+padding-top: 32px;
+}
+.choose-section .box3{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding-left: 32px;
+padding-top: 32px;
+margin: 24px auto 0 auto;
+}
 
 /* footer section styles */
 

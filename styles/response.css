@@ -106,4 +106,20 @@
     top: 37%;
     left: 33%;
   }
+  .choose-section{
+    width: 89%;
+    height: auto;
+  }
+  .choose-section .choose-box{
+    flex-direction: column;
+  }
+  .choose-section .choose-box .box1{
+    width: 100%;
+  }
+  .choose-section .choose-box .box2{
+    width: 100%;
+  }
+  .choose-section .box3{
+    width: 100%;
+  }
 }
