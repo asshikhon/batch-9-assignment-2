@@ -233,6 +233,11 @@ margin: 0 auto;
 text-align: center;
 align-items: center;
 }
+.choose-section .choose-content .box-title{
+    font-weight: 800;
+    font-size: 24px;
+    color: #131318;
+}
 .choose-section .choose-box{
 display: flex;
 gap: 24px;
@@ -298,6 +303,11 @@ margin-right: auto;
     color: #FF5400;
    
 }
+.footer-section .footer-container .footer-content img{
+    position: relative;
+    top: 12px;
+   
+   }
 .footer-section .footer-container .footer-content p{
     padding-top: 15px;
     padding-bottom: 32px;
@@ -313,9 +323,4 @@ margin-right: auto;
 .footer-section .footer-container .footer-reserved{
     text-align: center;
     padding-top: 50px;
-}
-.footer-section .footer-container .footer-content img{
- position: relative;
- top: 12px;
-
 }

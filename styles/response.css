@@ -122,4 +122,17 @@
   .choose-section .box3{
     width: 100%;
   }
+  .footer-section{
+  width: 100%;
+
+  }
+  .footer-section .footer-container{
+    width: 89%;
+    padding-top: 33.2px;
+  }
+  .footer-section .footer-container .footer-content{padding-top: 33px;}
+  .footer-section .footer-container .footer-icon{
+    padding-bottom: 24px;
+  }
+  .footer-section .footer-container .footer-reserved{padding-top: 24px;}
 }
