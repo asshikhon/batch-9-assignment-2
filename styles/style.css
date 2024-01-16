@@ -290,6 +290,58 @@
   top: 45%;
 }
 
+/* winter bonous section styles */
+.winter-section{
+width: 89%;
+max-width: 1170px;
+height: auto;
+
+margin: 0 auto 100px auto;
+}
+
+.winter-section .winter-h2{
+  font-weight: 800;
+  font-size: 40px;
+  color: #131318;
+
+text-align: center;
+margin-bottom: 50px;
+}
+.winter-section .winter-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.winter-section .winter-img img{
+  width: 610px;
+  height: 424px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+.winter-section .winter-content{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  /* padding-top: 70px; */
+
+}
+.winter-section .winter-content .winter-title{
+padding-bottom: 16px;
+}
+.winter-section .winter-content .winter-btn{
+margin-top: 24px;
+color: #FFF;
+/* font-size: 40px */
+font-size: 15px;
+font-weight: 800;
+width: 210px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border:0;
+}
+
 /* Why Choose Us section styles */
 
 .choose-section{

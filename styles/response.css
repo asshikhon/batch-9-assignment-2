@@ -1,6 +1,10 @@
 /* small device */
 @media screen and (max-width: 600px) {
 
+  .h2-title{
+    font-size: 20px;
+   
+  }
   .nav-container .nav-logo-name {
     flex: 1;
     gap: 6px;
@@ -30,13 +34,14 @@ right: 10px;
   .explore-section {
     margin-top: 18px;
     width: 100%;
-
+  
     height: 483px;
     object-position: center;
-    margin-bottom: 0px;
+    margin-bottom: 24px;
   }
   .explore-section .explore {
     padding-top: 32px;
+    /* padding-bottom: 48px; */
   }
   .explore-section .explore .find-box {
     display: flex;
@@ -87,7 +92,7 @@ right: 10px;
   .popular-section {
     width: 89%;
     height: auto;
-    margin-top: 24px;
+    margin-top: 0;
 
     flex-direction: column;
   }
@@ -95,7 +100,11 @@ right: 10px;
     width: 100%;
  
   }
- 
+  .popular-section .popular-content .popular-title{
+    font-size: 20px;
+    margin-bottom: 24px;
+   
+  }
   
   .popular-pic img {
     margin-top: 24px;
@@ -111,9 +120,12 @@ right: 10px;
     margin-top: 24px;
     margin-bottom: 24px;
   }
+ 
+ 
   .destination-section .grid-container {
     display: flex;
     flex-direction: column;
+    margin-top: 24px;
   }
   .destination-section .grid-container .grid-img-1 .grid-title {
     left: 37%;
@@ -141,6 +153,30 @@ right: 10px;
     top: 37%;
     left: 33%;
   }
+
+/* winter bonous section  */
+.winter-section{
+  margin-bottom: 48px;
+}
+.winter-section .winter-container{
+  flex-direction: column;
+}
+.winter-section .winter-img{
+  padding-bottom: 10px;
+}
+.winter-section .winter-img img{
+  width: 100%;
+
+}
+.winter-section .winter-h2{
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.winter-section .winter-content .winter-title{
+  font-size: large;
+}
+
   /* choose section */
   .choose-section{
     /* margin-top: 24px; */
@@ -164,7 +200,11 @@ right: 10px;
     height: 289px;
 
   }
-
+  .choose-section .choose-content .h2-title{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 0;
+  }
 
 
 /* newsletter section */
