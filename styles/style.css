@@ -117,6 +117,7 @@
   margin: 60px auto 100px auto;
   text-align: center;
   object-fit: cover;
+  background-size: 100% 100%;
 }
 .explore-section .explore {
   padding-top: 106px;
@@ -140,6 +141,7 @@
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
   display: inline-flex;
+  background-size: 100% 100%;
   padding: 16px;
   align-items: flex-start;
   gap: 24px;
@@ -535,4 +537,7 @@ margin-right: auto;
 .footer-section .footer-container .footer-reserved{
     text-align: center;
     padding-top: 50px;
+}
+.hide{
+  display: none;
 }
